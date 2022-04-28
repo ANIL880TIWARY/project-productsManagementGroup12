@@ -20,7 +20,7 @@ let uploadFile = async (file) => {
         var uploadParams = {
             ACL: "public-read", // this file is publically readable
             Bucket: "classroom-training-bucket", // HERE
-            Key: "Group38/" + new Date() + file.originalname, // HERE    "pk_newFolder/harry-potter.png" pk_newFolder/harry-potter.png
+            Key: "Group12/" + new Date() + file.originalname, // HERE    "pk_newFolder/harry-potter.png" pk_newFolder/harry-potter.png
             Body: file.buffer,
         };
 
